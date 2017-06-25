@@ -17,3 +17,4 @@ bash_scripts/
 /master-push.sh
 /master-checkout.sh
 /pull.sh
+/session-update-master.sh
