@@ -2,9 +2,8 @@ title = "Home"
 url = "/"
 layout = "default"
 description = "Home"
-
+is_hidden = 0
 ==
-
 {% partial "header" %}
 
 <!-- bloc-0 -->
@@ -122,18 +121,9 @@ description = "Home"
 </div>
 <!-- bloc-3 END -->
 
-<!-- instafeed -->
-<div class="bloc bgc-yellow-orange-2 l-bloc" id="instafeed">
-	<div class="container bloc-lg">
-		<div class="row" id="instagram">
-			<div class="col-sm-12">
-				<h1 class="mg-md">
-					Insta Section will go in heree
-				</h1>
-			</div>
-		</div>
-	</div>
+<!-- Instafeed -->
+<div class="bloc bgc-yellow-orange-2 l-bloc">
+	{% partial 'instagram-feed' %}
 </div>
 <!-- instafeed END -->
 {% partial "footer" %}
-
