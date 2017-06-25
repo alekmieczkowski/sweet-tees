@@ -560,6 +560,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url('images/header-background-animated-compressed.gif');
 }
 .bg-store-header-gif{
+	height:140px;
 	background-image:url('images/store-header-gif.gif');
 }
 
@@ -943,3 +944,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 }
 
+
+.wave-div-height{
+	height:192px;
+}
