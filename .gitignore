@@ -13,3 +13,7 @@ index.php
 #bash scripts
 bash_scripts/
 /session-push.sh
+/session-checkout.sh
+/master-push.sh
+/master-checkout.sh
+/pull.sh
